@@ -18,4 +18,4 @@ That's a quick summary of why FTP is a good choice for transferring files. We wi
 
 Why LFTP?
 
-LFTP is an especially fast FTP client, one of the few that offer *segmenting* for downloading files in several parallel streams as once. LFTP offers a command line interface, making it harder to use than graphical FTP clients, but easier to automate.
+LFTP is an especially fast FTP client, one of the few that offer *segmenting* for downloading files in several parallel streams as once. LFTP offers a command line interface, making it more difficult to learn than graphical FTP clients, but on the other hand, easier to automate. If you want the fastest FTP client in the west, or want to chain together FTP with other software, LFTP is a solid choice.
