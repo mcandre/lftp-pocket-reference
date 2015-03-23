@@ -72,4 +72,12 @@ $ mv <source> <destination>
 
 ```
 $ rm <file>
+C:\> del <file>
+```
+
+### Delete directory
+
+```
+$ rm -rf <directory>
+C:\> rmdir /s <directory>
 ```
