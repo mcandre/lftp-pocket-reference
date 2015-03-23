@@ -14,7 +14,7 @@ BitTorrent is a fantastically efficient way to transfer and host files--big, sma
 
 ## Why not SSH/SCP?
 
-Secure Shell is another great tool for remotely accessing files and programs on remote systems. SSH is often used to administrate remote servers, while SCP is used to transfer files to and from SSH servers. SSH, SCP, and SFTP all use SSL to encrypt communication, but SSH/SCP are designed with secure remote execution in mind, while FTP is designed for faster file transfers. If you value secure, customizable sandboxes for running arbitrary commands, consider using SSH/SCP for transferring files.
+Secure Shell is another great tool for remotely accessing files and programs on remote systems. SSH is often used to administrate remote servers, while SCP is used to transfer files to and from SSH servers. SSH sessions can establish further SSH sessions, proxying network traffic past some firewall rules. SSH, SCP, and SFTP all use SSL to encrypt communication, but SSH/SCP are designed with secure remote execution in mind, while FTP is designed for faster file transfers. If you value secure, customizable sandboxes for running arbitrary commands, consider using SSH/SCP for transferring files.
 
 ## Why FTP?
 
