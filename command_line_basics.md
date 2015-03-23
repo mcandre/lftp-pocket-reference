@@ -75,3 +75,17 @@ test
 $ ls src/test
 resources
 ```
+
+### Create file
+
+```
+$ touch <file>
+```
+
+E.g.:
+
+```
+$ touch README.md
+$ ls
+README.md
+```
