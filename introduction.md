@@ -1,4 +1,4 @@
-s# Introduction
+# Introduction
 
 ## What is (L)FTP?
 
