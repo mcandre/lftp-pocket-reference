@@ -26,7 +26,7 @@ Again, you have several choices. FTP files can be transferred by a variety of *F
 
 ## Which protocols does LFTP support?
 
-Some FTP clients support a handful of FTP/SFTP protocols. LFTP supports more than a handful of secure and insecure FTP and HTTP-based protocols:
+Some FTP clients support a handful of FTP/SFTP protocols. LFTP supports more than a handful of secure and insecure FTP and HTTP protocols:
 
 * FTP
 * SFTP
