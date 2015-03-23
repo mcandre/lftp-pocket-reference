@@ -39,7 +39,7 @@ See https://github.com/mcandre/lftp-completion
 
 Or press `Control+D` (Unix) / `Control+C` (Windows).
 
-## Download a single file
+## Download a file
 
 ```
 > get <path>
@@ -51,7 +51,7 @@ E.g.:
 > get index.html
 ```
 
-## Download a single file faster, in parallel segments
+## Download a file faster, in parallel segments
 
 ```
 > pget <path>
@@ -65,7 +65,7 @@ E.g.,:
 ooo
 ```
 
-## Upload a single file
+## Upload a file
 
 ```
 > put <path>
