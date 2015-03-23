@@ -12,4 +12,4 @@ By default, LFTP caches directory listings. Therefore, LFTP `ls` may lag behind 
 
 ## Local operations
 
-To navigate directories and perform other local operations, prefix the operation with `local `. E.g., `local pwd` prints the current working directory of the local FTP endpoint. The same goes for `local cd`, `local ls`, `local mkdir`, `local mv`, `local cp`, `local rm`, and other common Unix file commands.
+To navigate directories and perform other local operations, prefix the operation with `local `. E.g., `local pwd` prints the current working directory of the local FTP endpoint. The same goes for `local cd`, `local ls`, `local mkdir`, `local mv`, `local cp`, `local rm`, `local move`, `local copy`, `local rm`, `local rmdir`, and other common Unix and Windows file commands.
