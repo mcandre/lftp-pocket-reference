@@ -26,7 +26,7 @@ Again, you have several choices of *FTP clients* to manage FTP connections. LFTP
 
 ## Which protocols does LFTP support?
 
-LFTP supports many secure and insecure FTP connection types:
+LFTP supports a multitude of secure and insecure protocols:
 
 * FTP
 * SFTP
