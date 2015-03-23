@@ -1,6 +1,6 @@
 # Command line basics
 
-If you have not used command line interfaces frequently, here is a refreshing sip of how they work.
+If you have not used command line interfaces frequently, here are a few refreshing sips of how they work.
 
 ## Terminals
 
@@ -88,4 +88,16 @@ E.g.:
 $ touch README.md
 $ ls
 README.md
+```
+
+### Copy file or directory
+
+```
+$ cp <source> <destination>
+```
+
+E.g.:
+
+```
+$ 
 ```
