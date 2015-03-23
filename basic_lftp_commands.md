@@ -6,7 +6,7 @@
 
 ```
 $ lftp <URL>
-> (other LFTP commands...)
+> <LFTP commands...>
 ```
 
 E.g., `lftp ftp://ftp.hq.nasa.gov/`
