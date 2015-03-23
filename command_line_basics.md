@@ -23,3 +23,35 @@ Linux distributions often offer a terminal such as `xfce4-terminal`, `gnome-term
 Once a terminal is open, the user is prompted to enter syntax for interacting with command line programs. Unix-based OS's tend to provide a dollar sign prompt (`$`), whereas Windows provides a greater than prompt (`>`).
 
 In any case, this is the terminal's way of asking the user to input some commands. For example, the next section instructs the user to type a command into the terminal that will download and install LFTP. This manual uses `monospace` to indicate that text should be copied & pasted, or otherwise input in a terminal in order to be used.
+
+## File operations
+
+Command line shells offer short, memorable commands for interacting with files and folders. Each command should be copied & pasted, manually typed, or otherwise input into a terminal session. Then, press Enter to execute the command.
+
+### Print current working directory
+
+```
+$ pwd
+```
+
+E.g.:
+
+```
+$ pwd
+/Users/mcandre
+```
+
+### List contents
+
+```
+$ ls
+```
+
+E.g.:
+
+```
+$ ls
+README.md
+```
+
+### 
