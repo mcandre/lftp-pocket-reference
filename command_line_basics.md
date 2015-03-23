@@ -49,50 +49,18 @@ In command line descriptions, `text` usually indicates text that should be liter
 $ mkdir [-p <path/path/path/>]<path>
 ```
 
-E.g.:
-
-```
-$ mkdir src
-$ ls
-src
-
-$ mkdir -p src/test/resources
-$ ls src
-test
-$ ls src/test
-resources
-```
-
 ### Create file
 
 ```
 $ touch <file>
 ```
 
-E.g.:
-
-```
-$ touch README.md
-$ ls
-README.md
-```
-
 ### Copy file or directory
 
 ```
 $ cp <source> <destination>
+C:\> copy <source> <destination>
 ```
-
-E.g.:
-
-```
-$ cp README.md README2.md
-$ ls
-README.md
-README2.md
-```
-
-In Windows Command Prompt, `copy` is typically used instead of `cp`.
 
 ### Move file or directory
 
