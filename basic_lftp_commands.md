@@ -67,6 +67,24 @@ E.g.,:
 ooo
 ```
 
+## Upload a single file
+
+```
+> put <path>
+```
+
+## Download a directory
+
+```
+> mirror <path>
+```
+
+## Upload a directory
+
+```
+> mirror -R <local path> <remote path>
+```
+
 ## Operations
 
 Graphical FTP clients tend to offer a side-by-side view of local vs. remote files. LFTP presents all this information in one view, using distinct commands for referring to local vs. remote files.
