@@ -2,7 +2,7 @@
 
 ## What is (L)FTP?
 
-LFTP is a fast, free, command line program for transferring files over FTP, the File Transfer Protocol. There are an incredible number of protocols for transferring files. Many of these can be used interchangeably, but some are best at certain tasks.
+LFTP is a fast, free and open source, command line program for transferring files over FTP, the File Transfer Protocol. There are an incredible number of protocols for transferring files. Many of these can be used interchangeably, but some are best at certain tasks.
 
 ## Why not HTTP?
 
