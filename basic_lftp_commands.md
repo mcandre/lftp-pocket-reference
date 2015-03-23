@@ -55,4 +55,4 @@ To navigate directories and perform other local operations, prefix the operation
 
 ## Caching
 
-By default, LFTP caches directory listings; if a file or folder is created, deleted, or moved, LFTP `ls` may not reflect the change. To fix this, run `cache flush`, or 
+By default, LFTP caches directory listings; if a file or folder is created, deleted, or moved, LFTP `ls` may not reflect the change. To fix this, run `cache flush`, or write `set cache:enable no` in your `$HOME/.lftprc` configuration file.
