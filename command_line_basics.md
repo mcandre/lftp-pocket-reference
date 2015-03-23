@@ -54,7 +54,7 @@ $ ls
 README.md
 ```
 
-In a local Windows Command Prompt, the `dir` command is typically used instead of `ls`.
+In Windows Command Prompt, the `dir` command is typically used instead of `ls`.
 
 ### Create directory
 
@@ -106,3 +106,7 @@ $ ls
 README.md
 README2.md
 ```
+
+In Windows Command Prompt, `copy` is typically used instead of `cp`.
+
+### 
