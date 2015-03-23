@@ -18,7 +18,7 @@ Secure Shell is another great tool for remotely accessing files and programs on 
 
 ## Why FTP?
 
-If you want to use most of your bandwidth, while respecting other bandwidth-hungry applications; if you want to download folders; upload files and folders; securely and efficiently transfer files; only need a few user accounts; want to allow anonymous downloads; or, if the server that holds your files doesn't support other protocols; you might want to use FTP.
+If you want to use most of your bandwidth, while respecting other bandwidth-hungry applications; if you want to download files and folders; upload files and folders; securely and efficiently transfer files; only need a few user accounts; want to allow anonymous downloads; or, if the server that holds your files doesn't support other protocols; you might want to use FTP.
 
 ## Why LFTP?
 
