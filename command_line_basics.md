@@ -101,5 +101,8 @@ $ cp <source> <destination>
 E.g.:
 
 ```
-$ 
+$ cp README.md README2.md
+$ ls
+README.md
+README2.md
 ```
