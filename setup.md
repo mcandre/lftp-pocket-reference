@@ -8,6 +8,8 @@ LFTP is free and open source, hosted at http://lftp.yar.ru/. If you want to manu
 
 ## Package Managers
 
+For the rest of us, the LFTP community is kind enough to compile and package binaries of LFTP for a wide variety of operating systems.
+
 ### Mac OS X
 
 Mac users can install LFTP with the [Homebrew](http://brew.sh/) package manager. If you have not installed Homebrew yet, you will want to follow the instructions at http://brew.sh/#install before continuing.
