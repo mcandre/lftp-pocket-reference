@@ -1,4 +1,4 @@
-# Introduction
+s# Introduction
 
 ## What is (L)FTP?
 
@@ -10,7 +10,7 @@ HTTP downloading is straightforward and easy: Tap an HTTP(S) download link in yo
 
 ## Why not BitTorrent?
 
-BitTorrent is a fantastically efficient way to transfer and host files--big, small, thousands of them, or just a few! However, BitTorrent's peer-to-peer design can make it a bandwidth hog, starving the network of precious bandwidth. If your housemates enjoy playing online video games, or streaming video, you may want to investigate BitTorrent seedboxes to save bandwidth. If, on the other hand, you don't mind using all of your Internet speed, maybe you want to share your files publicly, BitTorrent is a great choice for transferring and hosting files.
+BitTorrent is a fantastically efficient way to transfer and host files--big, small, thousands of them, or just a few! However, BitTorrent's peer-to-peer design can make it a bandwidth hog, starving the network of precious bandwidth. If your housemates enjoy playing online video games, or streaming video, you may want to investigate BitTorrent [seedboxes](https://en.wikipedia.org/wiki/Seedbox) to save bandwidth. If, on the other hand, you don't mind using all of your Internet speed, maybe you want to share your files publicly, BitTorrent is a great choice for transferring and hosting files.
 
 ## Why not SSH/SCP?
 
