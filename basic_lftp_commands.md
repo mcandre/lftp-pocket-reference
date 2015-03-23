@@ -21,7 +21,7 @@ If you frequently connect to the same FTP server, you may want to create an LFTP
 
 E.g., `bookmark nasa`
 
-Now, you don't have to remember the full FTP URL anymore!
+Now you don't have to remember the full FTP URL anymore!
 
 ## Connect to bookmarked server
 
