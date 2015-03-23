@@ -27,10 +27,6 @@ $ lftp <name>
 
 E.g., `lftp nasa`
 
-### LFTP Bookmark tab completion
-
-See https://github.com/mcandre/lftp-completion
-
 ## Quit / Disconnect from server
 
 ```
