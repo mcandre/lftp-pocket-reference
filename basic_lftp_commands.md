@@ -13,15 +13,11 @@ E.g., `lftp ftp://ftp.hq.nasa.gov/`
 
 ## Create a bookmark
 
-If you frequently connect to the same FTP server, you may want to create an LFTP bookmark to make it easier to access.
-
 ```
 > bookmark <name>
 ```
 
 E.g., `bookmark nasa`
-
-Now you don't have to remember the full FTP URL anymore!
 
 ## Connect to bookmarked server
 
