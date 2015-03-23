@@ -6,4 +6,5 @@
 * [Basic LFTP Commands](basic_lftp_commands.md)
 * [Advanced LFTP Commands](advanced_lftp_commands.md)
 * [Troubleshooting](troubleshooting.md)
+* Resources
 
