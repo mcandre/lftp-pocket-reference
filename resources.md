@@ -2,10 +2,12 @@
 
 ## Mailing list
 
-[lftp@uniyar.ac.ru](mailto:lftp@uniyar.ac.ru)
+http://lftp.yar.ru/list.html
 
 ## IRC
 
 [irc.freenode.net:6697/#lftp](irc://irc.freenode.net:6697/#lftp)
 
 ## Reddit
+
+http://www.reddit.com/r/commandline
