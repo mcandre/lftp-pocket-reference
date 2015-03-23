@@ -43,18 +43,82 @@ Or press `Control+D` (Unix) / `Control+C` (Windows).
 
 ## Navigation
 
-Graphical FTP clients tend to offer a side-by-side view of local vs. remote files. LFTP presents all this information in one view, using distinct commands for referring to local vs. remote files. LFTP tends to use Unix-style commands for remote files, and prefix these commands with `l` for local files.
+Graphical FTP clients tend to offer a side-by-side view of local vs. remote files. LFTP presents all this information in one view, using distinct commands for referring to local vs. remote files. LFTP uses Unix-style commands for remote files, and tends to prefix these commands with `l` for local files.
 
-### Change remote directory
+### Print working directory (remote)
 
 Like SSH, LFTP has a temporary concept of where the user is with respect to the remote directory tree.
+
+```
+> pwd
+```
+
+E.g.:
+
+```
+> pwd
+ftp://ftp.hq.nasa.gov/
+```
+
+### Print working directory (local)
+
+```
+> lpwd
+/Users/mcandre
+```
+
+### List files (remote)
+
+```
+> ls
+```
+
+E.g.:
+
+```
+> ls
+README
+armd
+chmgt
+ftp-exec
+incoming
+index.html
+lost+found
+office
+pub
+robots.txt
+```
+
+### List files (local)
+
+```
+> local ls
+```
+
+### Change directory (remote)
 
 ```
 > cd <directory>
 ```
 
-### Change local directory
+E.g.:
+
+```
+> cd pub
+> pwd
+ftp://ftp.hq.nasa.gov/pub
+```
+
+### Change directory (local)
 
 ```
 > lcd <directory>
+```
+
+E.g.:
+
+```
+> lcd Desktop
+> lpwd
+/Users/mcandre/Desktop
 ```
