@@ -6,6 +6,20 @@ By default, LFTP caches directory listings, causing LFTP `ls` to lag behind file
 
 ## Rate limit
 
+Run
+
+```
+> set net:limit-total-rate <max bytes/sec>
+```
+
+Or
+
+```
+> set net:limit-total-rate <max bytes/sec (download)>:<max bytes/sec (upload)>
+```
+
+before beginning transfers.
+
 ## Bookmark tab completion
 
 To tab-complete LFTP bookmark names in bash, see https://github.com/mcandre/lftp-completion.
