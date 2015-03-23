@@ -41,6 +41,32 @@ Tab-completion for LFTP bookmarks can be setup with [lftp-completion](https://gi
 
 Or press `Control+D` (Unix) / `Control+C` (Windows).
 
+## Download a single file
+
+```
+> get <path>
+```
+
+E.g.:
+
+```
+> get index.html
+```
+
+## Download a single file faster, in parallel segments
+
+```
+> pget <path>
+...
+```
+
+E.g.,:
+
+```
+> pget index.html
+ooo
+```
+
 ## Operations
 
 Graphical FTP clients tend to offer a side-by-side view of local vs. remote files. LFTP presents all this information in one view, using distinct commands for referring to local vs. remote files.
