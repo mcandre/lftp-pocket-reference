@@ -1,6 +1,6 @@
 # Introduction
 
-## What is LFTP? For that matter, what is *FTP*?
+## What is (L)FTP?
 
 LFTP is a fast, free, command line program for transferring files over FTP, the File Transfer Protocol. There are an incredible number of protocols for transferring files. Many of these can be used interchangeably, but some are best at certain tasks.
 
