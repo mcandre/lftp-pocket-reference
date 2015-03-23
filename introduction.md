@@ -22,7 +22,7 @@ If you want to use most of your bandwidth, but respect other bandwidth-hungry ap
 
 ## Why LFTP?
 
-Again, you have several choices of *FTP clients* to manage FTP connections. LFTP is a very fast FTP client, one of the few that offer *segmenting* for downloading files in several parallel streams at once. LFTP offers a command line interface, making it a bit more difficult to learn than graphical FTP clients, but on the other hand, faster and easier to automate. If you want the fastest FTP client in the west, or you want a flexible, pluggable FTP client, LFTP is a solid choice.
+Again, you have several choices of *FTP clients* to manage FTP connections. LFTP is free and open source, and faster than many of its graphical peers. LFTP is one of the few FTP clients that offer *segmenting* for downloading files in several parallel streams at once. LFTP offers a command line interface, making it a bit more difficult to learn than graphical FTP clients, but on the other hand, faster and easier to automate. If you want the fastest FTP client in the west, or you want a flexible, pluggable FTP client, LFTP is a solid choice.
 
 ## Which protocols does LFTP support?
 
