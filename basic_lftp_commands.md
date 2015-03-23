@@ -52,3 +52,7 @@ LFTP assumes most operations run remotely by default, using Unix-style commands 
 ### Local operations
 
 To navigate directories and perform other local operations, prefix the operation with `local `. E.g., `local pwd` prints the current working directory of the local FTP endpoint. The same goes for `local cd`, `local ls`, `local mv`, `local cp`, `local rm`, and other common Unix file commands.
+
+## Caching
+
+By default, LFTP caches directory listings; if a file or folder is created, deleted, or moved, LFTP `ls` may not reflect the change. To fix this, run `cache flush`, or 
