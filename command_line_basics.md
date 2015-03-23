@@ -56,6 +56,8 @@ README.md
 
 ### Create directory
 
+In command line descriptions, `text` usually indicates text that should be literally typed as shown; hard brackets (`[ ... ]`) indicate an optional value; and angle brackets (`< ... >`) indicate a placeholder than should be chosen by the user, without actually typing any angle brackets.
+
 ```
 $ mkdir [-p <path/path/path/>]<path>
 ```
@@ -73,5 +75,3 @@ test
 $ ls src/test
 resources
 ```
-
-In command line descriptions, `text` usually indicates text that should be literally typed as shown; hard brackets (`[ ... ]`) indicate an optional value; and angle brackets (`< ... >`) indicate a placeholder than should be chosen by the user, without actually typing any angle brackets.
