@@ -34,27 +34,12 @@ Command line shells offer short, memorable commands for interacting with files a
 $ pwd
 ```
 
-E.g.:
-
-```
-$ pwd
-/Users/mcandre
-```
-
 ### List contents
 
 ```
 $ ls
+C:\> dir
 ```
-
-E.g.:
-
-```
-$ ls
-README.md
-```
-
-In Windows Command Prompt, the `dir` command is typically used instead of `ls`.
 
 ### Create directory
 
@@ -109,4 +94,14 @@ README2.md
 
 In Windows Command Prompt, `copy` is typically used instead of `cp`.
 
-### 
+### Move file or directory
+
+```
+$ mv <source> <destination>
+```
+
+E.g.:
+
+```
+$ 
+```
