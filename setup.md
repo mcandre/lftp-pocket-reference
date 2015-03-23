@@ -1,7 +1,5 @@
 # Setup
 
-The LFTP community has ported LFTP to a variety of operating systems through a collection of automated packages. If you have used `apt-get` or `yum` before, you will be familiar with this process. If not, you may want to practice installing software via command line package managers.
-
 ## Compile from source code
 
 LFTP is free and open source, hosted at http://lftp.yar.ru/. If you want to manually compile and install LFTP from raw source code, you are free to do so under the [GPL Public License](http://www.gnu.org/licenses/gpl.html).
@@ -9,6 +7,8 @@ LFTP is free and open source, hosted at http://lftp.yar.ru/. If you want to manu
 ## Package Managers
 
 For the rest of us, the LFTP community is kind enough to compile and package binaries of LFTP for a wide variety of operating systems.
+
+If you have used `apt-get` or `yum` before, you will be familiar with this process. If not, you may want to practice installing software via command line package managers.
 
 ### Mac OS X
 
