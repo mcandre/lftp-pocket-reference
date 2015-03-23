@@ -54,4 +54,22 @@ $ ls
 README.md
 ```
 
-### 
+### Create directory
+
+```
+$ mkdir [-p <path/path/path/>]path
+```
+
+E.g.:
+
+```
+$ mkdir src
+$ ls
+src
+
+$ mkdir -p src/test/resources
+$ ls src
+test
+$ ls src/test
+resources
+```
