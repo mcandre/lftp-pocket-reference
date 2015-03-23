@@ -68,8 +68,8 @@ C:\> copy <source> <destination>
 $ mv <source> <destination>
 ```
 
-E.g.:
+### Delete file
 
 ```
-$ 
+$ rm <file>
 ```
