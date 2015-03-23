@@ -54,6 +54,8 @@ $ ls
 README.md
 ```
 
+In a local Windows Command Prompt, the `dir` command is typically used instead of `ls`.
+
 ### Create directory
 
 In command line descriptions, `text` usually indicates text that should be literally typed as shown; hard brackets (`[ ... ]`) indicate an optional value; and angle brackets (`< ... >`) indicate a placeholder than should be chosen by the user, without actually typing any angle brackets.
