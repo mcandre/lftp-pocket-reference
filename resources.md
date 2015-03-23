@@ -11,3 +11,7 @@ http://lftp.yar.ru/list.html
 ## Reddit
 
 http://www.reddit.com/r/commandline
+
+## Super User
+
+http://superuser.com/questions/tagged/lftp
