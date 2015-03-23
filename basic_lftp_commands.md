@@ -41,84 +41,14 @@ Tab-completion for LFTP bookmarks can be setup with [lftp-completion](https://gi
 
 Or press `Control+D` (Unix) / `Control+C` (Windows).
 
-## Navigation
+## Operations
 
-Graphical FTP clients tend to offer a side-by-side view of local vs. remote files. LFTP presents all this information in one view, using distinct commands for referring to local vs. remote files. LFTP uses Unix-style commands for remote files, and tends to prefix these commands with `l` for local files.
+Graphical FTP clients tend to offer a side-by-side view of local vs. remote files. LFTP presents all this information in one view, using distinct commands for referring to local vs. remote files.
 
-### Print working directory (remote)
+### Remote operations
 
-Like SSH, LFTP has a temporary concept of where the user is with respect to the remote directory tree.
+LFTP assumes most operations run remotely by default, using Unix-style commands for directory navigation, file copying, and moving. E.g., `pwd` in an LFTP session prints the current working directory of the remote FTP endpoint. The same goes for `cd`, `ls`, `mv`, `cp`, `rm`, and other common Unix file commands.
 
-```
-> pwd
-```
+### Local operations
 
-E.g.:
-
-```
-> pwd
-ftp://ftp.hq.nasa.gov/
-```
-
-### Print working directory (local)
-
-```
-> lpwd
-/Users/mcandre
-```
-
-### List files (remote)
-
-```
-> ls
-```
-
-E.g.:
-
-```
-> ls
-README
-armd
-chmgt
-ftp-exec
-incoming
-index.html
-lost+found
-office
-pub
-robots.txt
-```
-
-### List files (local)
-
-```
-> local ls
-```
-
-### Change directory (remote)
-
-```
-> cd <directory>
-```
-
-E.g.:
-
-```
-> cd pub
-> pwd
-ftp://ftp.hq.nasa.gov/pub
-```
-
-### Change directory (local)
-
-```
-> lcd <directory>
-```
-
-E.g.:
-
-```
-> lcd Desktop
-> lpwd
-/Users/mcandre/Desktop
-```
+To navigate directories and perform other local operations, prefix the operation with `local `. E.g., `local pwd` prints the current working directory of the local FTP endpoint. The same goes for `local cd`, `local ls`, `local mv`, `local cp`, `local rm`, and other common Unix file commands.
