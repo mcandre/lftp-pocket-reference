@@ -4,7 +4,7 @@ The LFTP community has ported LFTP to a variety of operating systems through a c
 
 ## Compile from source code
 
-LFTP is free and open source, hosted at http://lftp.yar.ru/. If you want to manually compile and install LFTP from raw source code, you are free to do so.
+LFTP is free and open source, hosted at http://lftp.yar.ru/. If you want to manually compile and install LFTP from raw source code, you are free to do so under the GNU Public License.
 
 ## Package Managers
 
