@@ -2,5 +2,5 @@
 
 * [Introduction](introduction.md)
 * [Setup](setup.md)
-* Command line basics
+* [Command line basics](command_line_basics.md)
 
