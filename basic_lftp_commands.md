@@ -31,7 +31,9 @@ $ lftp <name>
 
 E.g., `lftp nasa`
 
-Tab-completion for LFTP bookmarks can be setup with [lftp-completion](https://github.com/mcandre/lftp-completion).
+### LFTP Bookmark tab completion
+
+See https://github.com/mcandre/lftp-completion
 
 ## Quit / Disconnect from server
 
