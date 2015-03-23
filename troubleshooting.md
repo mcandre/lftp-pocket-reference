@@ -18,7 +18,7 @@ Or
 > set net:limit-total-rate <max bytes/sec (download)>:<max bytes/sec (upload)>
 ```
 
-before beginning transfers.
+before beginning transfers. Optionally, write these commands in `$HOME/.lftprc` to remember the setting for future connections.
 
 ## Bookmark tab completion
 
