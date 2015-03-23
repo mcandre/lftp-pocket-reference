@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](introduction.md)
-* Setup
+* [Setup](setup.md)
 
