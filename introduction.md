@@ -14,19 +14,19 @@ BitTorrent is a fantastically efficient way to transfer and host files--big, sma
 
 ## Why not SSH/SCP?
 
-Secure Shell is another great tool for remotely accessing files and programs on remote systems. SSH is often used to administrate remote servers, while SCP is used to transfer files to and from SSH servers. SSH, SCP, and SFTP all use SSL to encrypt communication, but SSH/SCP are designed with secure remote execution in mind, while FTP is designed for faster file transfers. If you value security above all, consider using SCP for transferring files.
+Secure Shell is another great tool for remotely accessing files and programs on remote systems. SSH is often used to administrate remote servers, while SCP is used to transfer files to and from SSH servers. SSH, SCP, and SFTP all use SSL to encrypt communication, but SSH/SCP are designed with secure remote execution in mind, while FTP is designed for faster file transfers. If you value granular roles and permissions, consider using SCP for transferring files.
 
 ## Why FTP?
 
-If you want to use most of your bandwidth, but respect other bandwidth-hungry applications; if you want to download folders; upload files and folders; securely and efficiently transfer files; or, if the server that holds your files doesn't support other protocols; you might want to use FTP.
+If you want to use most of your bandwidth, but respect other bandwidth-hungry applications; if you want to download folders; upload files and folders; securely and efficiently transfer files; only need a few user accounts; want to allow anonymous downloads; or, if the server that holds your files doesn't support other protocols; you might want to use FTP.
 
 ## Why LFTP?
 
-LFTP is an especially fast FTP client, one of the few that offer *segmenting* for downloading files in several parallel streams as once. LFTP offers a command line interface, making it more difficult to learn than graphical FTP clients, but on the other hand, easier to automate. If you want the fastest FTP client in the west, or you want a flexible FTP client, LFTP is a solid choice.
+Again, you have several choices of *FTP clients* to manage FTP connections. LFTP is a very fast FTP client, one of the few that offer *segmenting* for downloading files in several parallel streams at once. LFTP offers a command line interface, making it a bit more difficult to learn than graphical FTP clients, but on the other hand, faster and easier to automate. If you want the fastest FTP client in the west, or you want a flexible, pluggable FTP client, LFTP is a solid choice.
 
 ## Which protocols does LFTP support?
 
-LFTP supports many FTP protocols, including several types of secure FTP.
+LFTP supports many secure and insecure FTP connection types:
 
 * FTP
 * SFTP
