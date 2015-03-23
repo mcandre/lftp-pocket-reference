@@ -30,4 +30,6 @@ Gentoo users can install LFTP with `emerge lftp`.
 
 ## Configuration
 
-LFTP provides a reasonable set of defaults out of the box, but you may want to tweak LFTP to fit your workflow better. To configure LFTP, edit `$HOME/.lftprc` with a text editor, such as `nano` or [Atom](https://atom.io/).
+LFTP provides a reasonable set of defaults out of the box, but eventually, you may want to tweak LFTP to fit your workflow better.
+
+To configure LFTP, edit `$HOME/.lftprc` with a text editor such as `nano` or [Atom](https://atom.io/).
