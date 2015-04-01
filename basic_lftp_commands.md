@@ -5,7 +5,7 @@
 `lftp` opens an FTP session, and then prompts for more LFTP commands.
 
 ```
-$ lftp <URL>
+$ lftp [-u <username>,<password>] <URL>
 >
 ```
 
@@ -14,7 +14,7 @@ E.g., `lftp ftp://ftp.hq.nasa.gov/`
 ## Create a bookmark
 
 ```
-> bookmark <name>
+> bookmark add <name>
 ```
 
 E.g., `bookmark nasa`
