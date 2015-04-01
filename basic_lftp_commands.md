@@ -17,7 +17,7 @@ E.g., `lftp ftp://ftp.hq.nasa.gov/`
 > bookmark add <name>
 ```
 
-E.g., `bookmark nasa`
+E.g., `bookmark add nasa`
 
 ## Connect to bookmarked server
 
